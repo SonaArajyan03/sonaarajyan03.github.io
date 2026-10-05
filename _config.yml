@@ -4,3 +4,4 @@ theme: minima
 permalink: /:year/:month/:day/:title.html
 exclude:
   - README.md
+timezone: Asia/Yerevan
