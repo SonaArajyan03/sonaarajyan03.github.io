@@ -1,0 +1,6 @@
+title: Sona Arajyan
+description: Notes on web game effects and the tools around them.
+theme: minima
+permalink: /:year/:month/:day/:title.html
+exclude:
+  - README.md

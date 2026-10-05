@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PixiJS cursor trail (NixieFX) - demo</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "pixi.js": "https://cdn.jsdelivr.net/npm/pixi.js@8.22.0/dist/pixi.min.mjs",
+          "nixie-fx/export": "https://esm.sh/nixie-fx@0.1.17/export?external=pixi.js",
+          "nixie-fx/pixi": "https://esm.sh/nixie-fx@0.1.17/pixi?external=pixi.js"
+        }
+      }
+    </script>
+    <style>
+      html, body { margin: 0; height: 100%; background: #0f1020; color: #c9cbe6; font: 14px system-ui, sans-serif; }
+      #hud { position: fixed; left: 12px; bottom: 10px; pointer-events: none; }
+      label { pointer-events: auto; margin-right: 12px; }
+    </style>
+  </head>
+  <body>
+    <div id="hud">
+      Move the mouse or drag a finger.
+      <label><input type="radio" name="mode" value="trail-distance" checked /> rate over distance</label>
+      <label><input type="radio" name="mode" value="trail-time" /> rate over time</label>
+      <span id="count"></span>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
