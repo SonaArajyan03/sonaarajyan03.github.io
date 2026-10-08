@@ -9,7 +9,6 @@ A cursor trail looks like a ten-minute effect: follow the pointer, spawn particl
 
 This post builds the trail in PixiJS 8 with the NixieFX particle runtime, shows both problems with real captures, and fixes them. The live demo is [here](/demos/cursor-trail/). Move the mouse over it, or drag a finger on a phone.
 
-*Note: I'm involved with the NixieFX project. The captures were made in a Claude Code session, and this post was drafted with AI and reviewed by hand. Every number and image comes from those runs.*
 
 ## Setup
 
