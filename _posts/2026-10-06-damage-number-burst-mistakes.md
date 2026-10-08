@@ -9,7 +9,6 @@ A damage number with a small burst behind it is one of the first effects most Pi
 
 I wired a 16-particle hit burst into a PixiJS 8 scene with the NixieFX runtime, then broke the integration on purpose in five common ways and measured what each one does. Everything below comes from those runs, stepped at a fixed 1/60 s so it's repeatable.
 
-*Note: I'm involved with the NixieFX project. The runs were done in a Claude Code session, and this post was drafted with AI and reviewed by hand.*
 
 ## The setup
 
