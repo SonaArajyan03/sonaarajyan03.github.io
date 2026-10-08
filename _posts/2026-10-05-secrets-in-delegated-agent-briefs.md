@@ -11,7 +11,7 @@ Customer data is the leak people think about. Credentials are the one that slips
 
 This post is about that second kind of leak in an AI work handoff: how to tell the runner which secret a task needs without putting its value in the brief.
 
-*Note: I'm involved with Wagglet, a tool for this kind of task handoff. The approach below doesn't depend on it. This post was drafted with AI and reviewed by hand. The example is invented and every value in it is fake.*
+
 
 ## Three people, three different relationships to the secret
 
