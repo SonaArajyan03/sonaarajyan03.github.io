@@ -9,7 +9,7 @@ Most small teams don't standardise on one AI coding tool. One person lives in Cl
 
 The usual advice for choosing who runs a task is sound. Check access first, then whether the person can recognise a bad result, then whether they're available. This post is about the step that advice tends to skip: finding out whether the task quietly depends on one particular tool.
 
-*Disclosure: I'm involved with Wagglet, a tool for handing tasks between people and agents. Nothing here depends on it. This post was drafted with AI and reviewed by hand, and the team in the example is invented.*
+
 
 ## The three roles stay the same
 
