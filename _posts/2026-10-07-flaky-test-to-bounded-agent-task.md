@@ -9,7 +9,7 @@ A flaky test ticket is one of the worst things to hand to a coding agent as writ
 
 This post walks through one small, real example: the test, the ticket as it usually arrives, how to reproduce it on demand, the rewritten brief, and the evidence that decides whether it's done. Everything in the code blocks below was run on Python 3.13.5; the project and ticket are invented for the example.
 
-*Disclosure: I'm involved with Wagglet, a tool for handing tasks between people and agents. Nothing here depends on it. This post was drafted with AI and reviewed by hand.*
+
 
 ## The test
 
