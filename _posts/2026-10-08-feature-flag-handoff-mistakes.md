@@ -9,8 +9,6 @@ A feature flag is supposed to separate shipping code from exposing it. Hand the 
 
 Below are six mistakes that cause this, a staged brief that avoids them, and a short script that catches the most mechanical one. The project and flag names are invented; the script and its output are real, run on Python 3.13.5.
 
-*This post was drafted with AI assistance and reviewed by hand.*
-
 ## The roles
 
 Three roles, which can belong to fewer than three people but should each be written down:

@@ -9,8 +9,6 @@ A dust trail looks finished the first time a character runs across flat ground. 
 
 This post builds a small dust trail in Three.js with the NixieFX runtime, then measures those three cases on a fixed clock. Everything below comes from a demo I ran: three r185, nixie-fx 0.1.18, seeded, stepped at 1/60 s.
 
-*This post was drafted with AI assistance and reviewed by hand.*
-
 ![A capsule runner moving right across a dark floor, leaving a short line of soft brown dust puffs behind it](/assets/threejs-dust-trail/dust-trail-hero.png)
 
 ## The effect
