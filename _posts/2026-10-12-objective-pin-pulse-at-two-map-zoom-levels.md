@@ -2,8 +2,8 @@
 layout: post
 title: "A PixiJS objective pulse at two map zoom levels"
 description: "An unscaled overlay anchors a small NixieFX loop to a map objective, with explicit removal when the objective stops needing motion."
-date: 2026-10-13 00:00:00 +0400
-published: false
+date: 2026-10-12 00:00:00 +0400
+published: true
 task_id: N-363
 source_sheet_tab: Sona NixieFX
 source_sheet_row: 40
