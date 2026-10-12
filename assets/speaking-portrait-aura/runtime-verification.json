@@ -1,0 +1,37 @@
+{
+  "state": {
+    "speaker": "rowan",
+    "enabled": true,
+    "closed": false,
+    "elapsed": 2,
+    "activeParticles": 7,
+    "effectCount": 1,
+    "capacity": 10,
+    "missingTextureRefs": [],
+    "missingMaterialRefs": [],
+    "missingSubEmitterRefs": [],
+    "unsupportedModules": [],
+    "unsupportedFeatures": [],
+    "tickerStarted": false
+  },
+  "checks": [
+    {
+      "check": "120 fixed-step text-region comparisons",
+      "region": [
+        292,
+        222,
+        540,
+        100
+      ],
+      "frames": 120,
+      "foregroundPixels": 2798,
+      "maxChangedPixels": 0,
+      "peakParticles": 8,
+      "passed": true,
+      "versions": {
+        "pixi": "8.22.0",
+        "nixieFx": "0.1.20"
+      }
+    }
+  ]
+}

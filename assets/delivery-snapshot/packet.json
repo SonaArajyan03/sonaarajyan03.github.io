@@ -1,0 +1,46 @@
+{
+  "candidate": "a82a11c1ff144bedc5c69817020da003032d67a581ae12675e061a063e294391",
+  "testReportMatchesCandidate": true,
+  "deliberateMismatch": {
+    "report": "candidate-tests.json",
+    "checkedSource": "before/projectName.mjs",
+    "matches": false
+  },
+  "changedFiles": [
+    {
+      "file": "projectName.mjs",
+      "beforeSha256": "08444587d2c357ee026aef2b1371d49efe98b065d3573905b6591ea4422c02da",
+      "candidateSha256": "a82a11c1ff144bedc5c69817020da003032d67a581ae12675e061a063e294391"
+    }
+  ],
+  "knownLimits": [
+    "Pure validation tests only; screenshots cover actual browser input handling separately.",
+    "No server-side validation, persistence, length rules, accessibility audit, Firefox, Safari, or mobile coverage.",
+    "A file hash catches accidental evidence mixups; it does not establish trusted provenance or reviewer acceptance."
+  ],
+  "browserChecks": {
+    "browser": "Chrome",
+    "interaction": "Filled the real Project name input with three ASCII spaces through browser automation; then filled Harbor in the candidate.",
+    "baselineWhitespaceSaveEnabled": true,
+    "candidateWhitespaceSaveEnabled": false,
+    "candidateHarborSaveEnabled": true
+  },
+  "screenshots": [
+    {
+      "image": "baseline-whitespace.png",
+      "source": "before/projectName.mjs",
+      "sourceSha256": "08444587d2c357ee026aef2b1371d49efe98b065d3573905b6591ea4422c02da",
+      "imageSha256": "28b2235475d98559d2c56d83f0a44fb5ce9d0ec4c67de4187cb2a00c39ac47c2",
+      "input": "three U+0020 ASCII spaces",
+      "captureMethod": "Actual Chrome viewport after the input event; no forced visual state."
+    },
+    {
+      "image": "candidate-whitespace.png",
+      "source": "candidate/projectName.mjs",
+      "sourceSha256": "a82a11c1ff144bedc5c69817020da003032d67a581ae12675e061a063e294391",
+      "imageSha256": "8f44eaf88475900161f764c946c44c8b41430aa9632ed8fd82a9aeb3c1988aaa",
+      "input": "three U+0020 ASCII spaces",
+      "captureMethod": "Actual Chrome viewport after the input event; no forced visual state."
+    }
+  ]
+}

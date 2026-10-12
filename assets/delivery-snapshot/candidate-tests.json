@@ -1,0 +1,62 @@
+{
+  "snapshot": "candidate",
+  "source": "candidate/projectName.mjs",
+  "sha256": "a82a11c1ff144bedc5c69817020da003032d67a581ae12675e061a063e294391",
+  "command": "node run-cases.mjs candidate",
+  "nodeVersion": "v24.19.0",
+  "tests": 7,
+  "passed": 7,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "empty name",
+      "input": "",
+      "expected": false,
+      "actual": false,
+      "pass": true
+    },
+    {
+      "name": "ASCII spaces only",
+      "input": "   ",
+      "expected": false,
+      "actual": false,
+      "pass": true
+    },
+    {
+      "name": "tabs and newline only",
+      "input": "\t\n",
+      "expected": false,
+      "actual": false,
+      "pass": true
+    },
+    {
+      "name": "non-breaking space only",
+      "input": " ",
+      "expected": false,
+      "actual": false,
+      "pass": true
+    },
+    {
+      "name": "plain name",
+      "input": "Harbor",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "name": "padded name",
+      "input": " Harbor ",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "name": "non-Latin name",
+      "input": "港",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    }
+  ],
+  "exitCode": 0
+}
