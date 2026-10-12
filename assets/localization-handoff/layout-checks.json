@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-12T12:46:50.945Z",
+  "browser": "Chrome, actual DOM measures through CUA",
+  "scope": "Synthetic HTML fixture, not the user’s game",
+  "checks": [
+    {
+      "fixture": "W-517 synthetic localization context",
+      "viewport": "320x200 CSS px",
+      "textScalePercent": 100,
+      "before": {
+        "buttonWidth": 96,
+        "textWidth": 137.91,
+        "clientWidth": 96,
+        "scrollWidth": 170,
+        "clipped": true,
+        "withinPanel": true,
+        "height": 44.796875,
+        "label": "Belohnung abholen"
+      },
+      "candidate": {
+        "buttonWidth": 169.90625,
+        "textWidth": 137.91,
+        "clientWidth": 170,
+        "scrollWidth": 170,
+        "clipped": false,
+        "withinPanel": true,
+        "height": 44.796875,
+        "label": "Belohnung abholen"
+      },
+      "candidateLayoutPass": true
+    },
+    {
+      "fixture": "W-517 synthetic localization context",
+      "viewport": "320x200 CSS px",
+      "textScalePercent": 130,
+      "before": {
+        "buttonWidth": 96,
+        "textWidth": 179.28,
+        "clientWidth": 96,
+        "scrollWidth": 211,
+        "clipped": true,
+        "withinPanel": true,
+        "height": 51.03125,
+        "label": "Belohnung abholen"
+      },
+      "candidate": {
+        "buttonWidth": 211.28125,
+        "textWidth": 179.28,
+        "clientWidth": 211,
+        "scrollWidth": 211,
+        "clipped": false,
+        "withinPanel": true,
+        "height": 51.03125,
+        "label": "Belohnung abholen"
+      },
+      "candidateLayoutPass": true
+    }
+  ]
+}

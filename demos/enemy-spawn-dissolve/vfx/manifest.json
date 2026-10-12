@@ -1,0 +1,81 @@
+{
+  "kind": "vfx-manifest",
+  "version": 1,
+  "generatedAt": "2026-10-12T12:46:52.300Z",
+  "sourceHash": "fnv1a32:72e1bfa0",
+  "effects": [
+    {
+      "id": "enemy-spawn-flecks",
+      "name": "Enemy spawn flecks",
+      "path": "effects/enemy-spawn-flecks.json",
+      "sourceEffectFile": "enemy-spawn-flecks.json",
+      "sourceEffectId": "enemy-spawn-flecks",
+      "sourceHash": "fnv1a32:3a40eb45",
+      "support": {
+        "status": "supported",
+        "overall": "supported",
+        "targetProfile": "three-world-3d",
+        "preferredBackend": "three3d",
+        "portableSubset": true,
+        "backends": {
+          "pixi2d": {
+            "backend": "pixi2d",
+            "status": "supported",
+            "warnings": [],
+            "blockers": [],
+            "notes": [
+              {
+                "code": "unsupported-module",
+                "path": "emitters.0.render.depthTest",
+                "message": "depthTest exports as deterministic Pixi 2.5D draw-order/ink semantics, not GPU depth-buffer rendering."
+              }
+            ]
+          },
+          "three3d": {
+            "backend": "three3d",
+            "status": "supported",
+            "warnings": [],
+            "blockers": []
+          }
+        },
+        "unsupportedModules": [],
+        "partialModules": [],
+        "warnings": [],
+        "notes": [
+          "[pixi2d] depthTest exports as deterministic Pixi 2.5D draw-order/ink semantics, not GPU depth-buffer rendering."
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "severity": "info",
+            "code": "unsupported-module",
+            "path": "emitters.0.render.depthTest",
+            "message": "depthTest exports as deterministic Pixi 2.5D draw-order/ink semantics, not GPU depth-buffer rendering.",
+            "backend": "pixi2d"
+          }
+        ],
+        "blockers": []
+      }
+    }
+  ],
+  "assets": [],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "infos": [
+      {
+        "severity": "info",
+        "code": "unsupported-module",
+        "path": "emitters.0.render.depthTest",
+        "message": "depthTest exports as deterministic Pixi 2.5D draw-order/ink semantics, not GPU depth-buffer rendering.",
+        "backend": "pixi2d"
+      }
+    ],
+    "blockers": []
+  }
+}
