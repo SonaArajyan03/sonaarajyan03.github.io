@@ -1,0 +1,55 @@
+{
+  "kind": "vfx-manifest",
+  "version": 1,
+  "generatedAt": "2026-10-12T09:42:52.938Z",
+  "sourceHash": "fnv1a32:8fbe3288",
+  "effects": [
+    {
+      "id": "crafting-spark",
+      "name": "Crafting spark",
+      "path": "effects/crafting-spark.json",
+      "sourceEffectFile": "crafting-spark.json",
+      "sourceEffectId": "crafting-spark",
+      "sourceHash": "fnv1a32:34d47e4f",
+      "support": {
+        "status": "supported",
+        "overall": "supported",
+        "targetProfile": "pixi-ui-2d",
+        "preferredBackend": "pixi2d",
+        "portableSubset": true,
+        "backends": {
+          "pixi2d": {
+            "backend": "pixi2d",
+            "status": "supported",
+            "warnings": [],
+            "blockers": []
+          },
+          "three3d": {
+            "backend": "three3d",
+            "status": "supported",
+            "warnings": [],
+            "blockers": []
+          }
+        },
+        "unsupportedModules": [],
+        "partialModules": [],
+        "warnings": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "infos": [],
+        "blockers": []
+      }
+    }
+  ],
+  "assets": [],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "infos": [],
+    "blockers": []
+  }
+}

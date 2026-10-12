@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Crafting spark above an inventory slot</title>
+<style>
+  body{margin:0;background:#101722;color:#e7eef8;font:16px/1.5 system-ui,sans-serif}
+  main{max-width:900px;margin:28px auto;padding:0 20px}
+  h1{font-size:26px;line-height:1.2;margin:0 0 8px}
+  .intro{color:#a9bad1;margin:0 0 20px}
+  canvas{display:block;max-width:100%;height:auto;border:1px solid #334359;border-radius:16px}
+  .buttons{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+  button{background:#28384e;color:#f5f8fc;border:1px solid #536981;border-radius:6px;padding:9px 13px;cursor:pointer}
+  button:hover{background:#38506c}button:disabled{opacity:.45;cursor:default}
+  #message{min-height:24px;color:#ffda88}
+  #stats{white-space:pre-wrap;font:13px/1.5 ui-monospace,monospace;padding:14px;background:#172232;border-radius:8px}
+  .note{color:#9ab0cc;font-size:14px}
+</style>
+<main>
+  <h1>Crafting spark above an inventory slot</h1>
+  <p class="intro">A one-shot effect driven by a confirmed crafting event. PixiJS 8.22.0 · nixie-fx 0.1.20</p>
+  <div id="scene" aria-label="Two inventory slots. Accepted crafts emit a small spark above the iron ingot slot."></div>
+  <div class="buttons">
+    <button id="accept">Accept craft</button>
+    <button id="duplicate">Repeat same event</button>
+    <button id="reject">Reject craft</button>
+    <button id="frame">Inspect at 0.10 seconds</button>
+    <button id="finish">Inspect at 0.80 seconds</button>
+    <button id="stress">Check 20 accepted events</button>
+    <button id="shift">Move and scale inventory</button>
+    <button id="hide">Close inventory</button>
+    <button id="save">Save verification JSON</button>
+    <button id="image">Save current canvas PNG</button>
+  </div>
+  <p id="message" aria-live="polite">Loading export…</p>
+  <pre id="stats"></pre>
+  <p class="note">This page simulates accepted and rejected events. It does not implement a crafting server. Fixed-step inspection pauses the ticker; ordinary playback advances the renderer once per frame.</p>
+</main>
+<script type="module" src="/main.js"></script>
+</html>

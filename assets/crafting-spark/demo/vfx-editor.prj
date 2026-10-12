@@ -1,0 +1,16 @@
+{
+  "app": "vfx-editor",
+  "kind": "project",
+  "version": 1,
+  "id": "sona-day8-crafting-spark-379",
+  "name": "Crafting spark above an inventory slot",
+  "settings": {
+    "effectDataPath": "effects",
+    "outputPath": "public/vfx",
+    "assetRootPath": "assets",
+    "materialsFolder": "materials",
+    "allowExternalOutput": false
+  },
+  "createdAt": "2026-10-12T09:40:00.000Z",
+  "updatedAt": "2026-10-12T09:40:00.000Z"
+}

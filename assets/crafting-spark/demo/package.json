@@ -1,0 +1,20 @@
+{
+  "name": "crafting-spark-slot",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5198",
+    "build": "vite build",
+    "vfx:validate": "nixie-fx validate .",
+    "vfx:export": "nixie-fx export .",
+    "vfx:status": "nixie-fx export-status ."
+  },
+  "dependencies": {
+    "nixie-fx": "0.1.20",
+    "pixi.js": "8.22.0"
+  },
+  "devDependencies": {
+    "vite": "6.4.4"
+  }
+}
