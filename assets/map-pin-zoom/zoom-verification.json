@@ -1,0 +1,66 @@
+{
+  "zoom55": {
+    "zoom": 0.55,
+    "worldPoint": [
+      600,
+      300
+    ],
+    "pinLocal": [
+      330,
+      165
+    ],
+    "pinScale": [
+      1,
+      1
+    ],
+    "mapOpen": true,
+    "tracked": true,
+    "completed": false,
+    "enabled": true,
+    "onScreen": true,
+    "running": true,
+    "elapsed": 2,
+    "updateCalls": 1080,
+    "effectCount": 1,
+    "activeParticles": 2,
+    "capacity": 4,
+    "missingTextureRefs": [],
+    "missingMaterialRefs": [],
+    "missingSubEmitterRefs": [],
+    "unsupportedModules": [],
+    "unsupportedFeatures": [],
+    "tickerStarted": false
+  },
+  "zoom85": {
+    "zoom": 0.85,
+    "worldPoint": [
+      600,
+      300
+    ],
+    "pinLocal": [
+      510,
+      255
+    ],
+    "pinScale": [
+      1,
+      1
+    ],
+    "mapOpen": true,
+    "tracked": true,
+    "completed": false,
+    "enabled": true,
+    "onScreen": true,
+    "running": true,
+    "elapsed": 2,
+    "updateCalls": 960,
+    "effectCount": 1,
+    "activeParticles": 2,
+    "capacity": 4,
+    "missingTextureRefs": [],
+    "missingMaterialRefs": [],
+    "missingSubEmitterRefs": [],
+    "unsupportedModules": [],
+    "unsupportedFeatures": [],
+    "tickerStarted": false
+  }
+}

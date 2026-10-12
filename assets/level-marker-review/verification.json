@@ -1,0 +1,70 @@
+{
+  "node": "v24.19.0",
+  "command": "node verify.mjs",
+  "sourceSha256": "5e2f80df7d0860445c2c8e0e51a6610f969948492e2feb887426aa125b09a69d",
+  "expectedCsv": "id,kind,x,y\nplayer,spawn,48,144\ngate,objective,208,48\npit,hazard,144,144\n",
+  "checks": [
+    {
+      "name": "Exact fixture CSV and center coordinates",
+      "passed": true
+    },
+    {
+      "name": "Input remains unchanged",
+      "passed": true
+    },
+    {
+      "name": "Right and bottom edge cell centers",
+      "passed": true
+    },
+    {
+      "name": "Negative coordinate rejected",
+      "passed": true
+    },
+    {
+      "name": "Coordinate at grid width rejected",
+      "passed": true
+    },
+    {
+      "name": "Fractional row rejected",
+      "passed": true
+    },
+    {
+      "name": "Duplicate identifier rejected",
+      "passed": true
+    },
+    {
+      "name": "CSV-control characters in identifier rejected",
+      "passed": true
+    },
+    {
+      "name": "Identifier type coercion rejected",
+      "passed": true
+    },
+    {
+      "name": "Unrecognized marker kind rejected",
+      "passed": true
+    },
+    {
+      "name": "Invalid tile size rejected",
+      "passed": true
+    },
+    {
+      "name": "Marker count bound enforced",
+      "passed": true
+    },
+    {
+      "name": "CLI actual output and exit code",
+      "passed": true
+    },
+    {
+      "name": "CLI malformed input exits 1 with no partial CSV",
+      "passed": true
+    }
+  ],
+  "passed": 14,
+  "failed": 0,
+  "limitations": [
+    "Local fixture and contract checks only; no engine import, level playthrough, large-file denial-of-service or accessibility audit.",
+    "AI technical review is provided; independent qualified human code review is pending."
+  ]
+}

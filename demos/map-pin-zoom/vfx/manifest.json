@@ -1,0 +1,55 @@
+{
+  "kind": "vfx-manifest",
+  "version": 1,
+  "generatedAt": "2026-10-12T12:05:37.723Z",
+  "sourceHash": "fnv1a32:f94d24fc",
+  "effects": [
+    {
+      "id": "map-pin-zoom-pulse",
+      "name": "Map pin zoom pulse",
+      "path": "effects/map-pin-zoom-pulse.json",
+      "sourceEffectFile": "map-pin-zoom-pulse.json",
+      "sourceEffectId": "map-pin-zoom-pulse",
+      "sourceHash": "fnv1a32:19c94c66",
+      "support": {
+        "status": "supported",
+        "overall": "supported",
+        "targetProfile": "pixi-ui-2d",
+        "preferredBackend": "pixi2d",
+        "portableSubset": true,
+        "backends": {
+          "pixi2d": {
+            "backend": "pixi2d",
+            "status": "supported",
+            "warnings": [],
+            "blockers": []
+          },
+          "three3d": {
+            "backend": "three3d",
+            "status": "supported",
+            "warnings": [],
+            "blockers": []
+          }
+        },
+        "unsupportedModules": [],
+        "partialModules": [],
+        "warnings": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "infos": [],
+        "blockers": []
+      }
+    }
+  ],
+  "assets": [],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "infos": [],
+    "blockers": []
+  }
+}

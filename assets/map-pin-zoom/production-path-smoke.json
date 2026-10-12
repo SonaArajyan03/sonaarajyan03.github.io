@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:5203/demos/map-pin-zoom/",
+  "state": {
+    "zoom": 0.55,
+    "worldPoint": [
+      600,
+      300
+    ],
+    "pinLocal": [
+      330,
+      165
+    ],
+    "pinScale": [
+      1,
+      1
+    ],
+    "mapOpen": true,
+    "tracked": true,
+    "completed": false,
+    "enabled": true,
+    "onScreen": true,
+    "running": true,
+    "elapsed": 2,
+    "updateCalls": 120,
+    "effectCount": 1,
+    "activeParticles": 2,
+    "capacity": 4,
+    "missingTextureRefs": [],
+    "missingMaterialRefs": [],
+    "missingSubEmitterRefs": [],
+    "unsupportedModules": [],
+    "unsupportedFeatures": [],
+    "tickerStarted": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "zoom": 0.55,
+  "worldPoint": [
+    600,
+    300
+  ],
+  "pinLocal": [
+    330,
+    165
+  ],
+  "pinScale": [
+    1,
+    1
+  ],
+  "mapOpen": true,
+  "tracked": true,
+  "completed": true,
+  "enabled": true,
+  "onScreen": true,
+  "running": false,
+  "elapsed": 2,
+  "updateCalls": 1080,
+  "effectCount": 0,
+  "activeParticles": 0,
+  "capacity": 0,
+  "missingTextureRefs": [],
+  "missingMaterialRefs": [],
+  "missingSubEmitterRefs": [],
+  "unsupportedModules": [],
+  "unsupportedFeatures": [],
+  "tickerStarted": false
+}

@@ -1,0 +1,319 @@
+{
+  "state": {
+    "zoom": 0.55,
+    "worldPoint": [
+      600,
+      300
+    ],
+    "pinLocal": [
+      330,
+      165
+    ],
+    "pinScale": [
+      1,
+      1
+    ],
+    "mapOpen": true,
+    "tracked": true,
+    "completed": false,
+    "enabled": true,
+    "onScreen": true,
+    "running": true,
+    "elapsed": 2,
+    "updateCalls": 720,
+    "effectCount": 1,
+    "activeParticles": 2,
+    "capacity": 4,
+    "missingTextureRefs": [],
+    "missingMaterialRefs": [],
+    "missingSubEmitterRefs": [],
+    "unsupportedModules": [],
+    "unsupportedFeatures": [],
+    "tickerStarted": false
+  },
+  "checks": [
+    {
+      "check": "600 fixed updates of one loop",
+      "frames": 600,
+      "peakParticles": 3,
+      "zoom": 0.55,
+      "worldPoint": [
+        600,
+        300
+      ],
+      "pinLocal": [
+        330,
+        165
+      ],
+      "pinScale": [
+        1,
+        1
+      ],
+      "mapOpen": true,
+      "tracked": true,
+      "completed": false,
+      "enabled": true,
+      "onScreen": true,
+      "running": true,
+      "elapsed": 10,
+      "updateCalls": 600,
+      "effectCount": 1,
+      "activeParticles": 2,
+      "capacity": 4,
+      "missingTextureRefs": [],
+      "missingMaterialRefs": [],
+      "missingSubEmitterRefs": [],
+      "unsupportedModules": [],
+      "unsupportedFeatures": [],
+      "tickerStarted": false
+    },
+    {
+      "check": "untracked",
+      "manualFrames": 60,
+      "simulationCallsAfterStop": 0,
+      "passed": true,
+      "zoom": 0.55,
+      "worldPoint": [
+        600,
+        300
+      ],
+      "pinLocal": [
+        330,
+        165
+      ],
+      "pinScale": [
+        1,
+        1
+      ],
+      "mapOpen": true,
+      "tracked": false,
+      "completed": false,
+      "enabled": true,
+      "onScreen": true,
+      "running": false,
+      "elapsed": 10,
+      "updateCalls": 600,
+      "effectCount": 0,
+      "activeParticles": 0,
+      "capacity": 0,
+      "missingTextureRefs": [],
+      "missingMaterialRefs": [],
+      "missingSubEmitterRefs": [],
+      "unsupportedModules": [],
+      "unsupportedFeatures": [],
+      "tickerStarted": false
+    },
+    {
+      "check": "completed",
+      "manualFrames": 60,
+      "simulationCallsAfterStop": 0,
+      "passed": true,
+      "zoom": 0.55,
+      "worldPoint": [
+        600,
+        300
+      ],
+      "pinLocal": [
+        330,
+        165
+      ],
+      "pinScale": [
+        1,
+        1
+      ],
+      "mapOpen": true,
+      "tracked": true,
+      "completed": true,
+      "enabled": true,
+      "onScreen": true,
+      "running": false,
+      "elapsed": 0,
+      "updateCalls": 600,
+      "effectCount": 0,
+      "activeParticles": 0,
+      "capacity": 0,
+      "missingTextureRefs": [],
+      "missingMaterialRefs": [],
+      "missingSubEmitterRefs": [],
+      "unsupportedModules": [],
+      "unsupportedFeatures": [],
+      "tickerStarted": false
+    },
+    {
+      "check": "reopening a completed objective does not recreate the pulse",
+      "passed": true,
+      "zoom": 0.55,
+      "worldPoint": [
+        600,
+        300
+      ],
+      "pinLocal": [
+        330,
+        165
+      ],
+      "pinScale": [
+        1,
+        1
+      ],
+      "mapOpen": true,
+      "tracked": true,
+      "completed": true,
+      "enabled": true,
+      "onScreen": true,
+      "running": false,
+      "elapsed": 0,
+      "updateCalls": 600,
+      "effectCount": 0,
+      "activeParticles": 0,
+      "capacity": 0,
+      "missingTextureRefs": [],
+      "missingMaterialRefs": [],
+      "missingSubEmitterRefs": [],
+      "unsupportedModules": [],
+      "unsupportedFeatures": [],
+      "tickerStarted": false
+    },
+    {
+      "check": "off-screen",
+      "manualFrames": 60,
+      "simulationCallsAfterStop": 0,
+      "passed": true,
+      "zoom": 0.55,
+      "worldPoint": [
+        600,
+        300
+      ],
+      "pinLocal": [
+        -670,
+        165
+      ],
+      "pinScale": [
+        1,
+        1
+      ],
+      "mapOpen": true,
+      "tracked": true,
+      "completed": false,
+      "enabled": true,
+      "onScreen": false,
+      "running": false,
+      "elapsed": 0,
+      "updateCalls": 600,
+      "effectCount": 0,
+      "activeParticles": 0,
+      "capacity": 0,
+      "missingTextureRefs": [],
+      "missingMaterialRefs": [],
+      "missingSubEmitterRefs": [],
+      "unsupportedModules": [],
+      "unsupportedFeatures": [],
+      "tickerStarted": false
+    },
+    {
+      "check": "repeated active reconciliation keeps one instance",
+      "passed": true,
+      "zoom": 0.55,
+      "worldPoint": [
+        600,
+        300
+      ],
+      "pinLocal": [
+        330,
+        165
+      ],
+      "pinScale": [
+        1,
+        1
+      ],
+      "mapOpen": true,
+      "tracked": true,
+      "completed": false,
+      "enabled": true,
+      "onScreen": true,
+      "running": true,
+      "elapsed": 0,
+      "updateCalls": 600,
+      "effectCount": 1,
+      "activeParticles": 0,
+      "capacity": 4,
+      "missingTextureRefs": [],
+      "missingMaterialRefs": [],
+      "missingSubEmitterRefs": [],
+      "unsupportedModules": [],
+      "unsupportedFeatures": [],
+      "tickerStarted": false
+    },
+    {
+      "check": "map closed",
+      "manualFrames": 60,
+      "simulationCallsAfterStop": 0,
+      "passed": true,
+      "zoom": 0.55,
+      "worldPoint": [
+        600,
+        300
+      ],
+      "pinLocal": [
+        330,
+        165
+      ],
+      "pinScale": [
+        1,
+        1
+      ],
+      "mapOpen": false,
+      "tracked": true,
+      "completed": false,
+      "enabled": true,
+      "onScreen": true,
+      "running": false,
+      "elapsed": 0,
+      "updateCalls": 600,
+      "effectCount": 0,
+      "activeParticles": 0,
+      "capacity": 0,
+      "missingTextureRefs": [],
+      "missingMaterialRefs": [],
+      "missingSubEmitterRefs": [],
+      "unsupportedModules": [],
+      "unsupportedFeatures": [],
+      "tickerStarted": false
+    },
+    {
+      "check": "VFX disabled",
+      "manualFrames": 60,
+      "simulationCallsAfterStop": 0,
+      "passed": true,
+      "zoom": 0.55,
+      "worldPoint": [
+        600,
+        300
+      ],
+      "pinLocal": [
+        330,
+        165
+      ],
+      "pinScale": [
+        1,
+        1
+      ],
+      "mapOpen": true,
+      "tracked": true,
+      "completed": false,
+      "enabled": false,
+      "onScreen": true,
+      "running": false,
+      "elapsed": 0,
+      "updateCalls": 600,
+      "effectCount": 0,
+      "activeParticles": 0,
+      "capacity": 0,
+      "missingTextureRefs": [],
+      "missingMaterialRefs": [],
+      "missingSubEmitterRefs": [],
+      "unsupportedModules": [],
+      "unsupportedFeatures": [],
+      "tickerStarted": false
+    }
+  ]
+}
